@@ -1,8 +1,14 @@
-#!/bin/bash
-# Here you can create functions which will be available from the commands file
-# You can also use here user variables defined in your config file
-# To avoid conflicts, name your function like this
-# pg_XX_myfunction () { }
-# pg for PluGin
-# XX is a short code for your plugin, ex: ww for Weather Wunderground
-# You can use translations provided in the language folders functions.sh
+#!/usr/bin/env bash
+
+# Find someone with the camera (silently)
+#
+jv_pg_fr_find_someone_with_the_camera()
+{
+  # TODO python3 script
+}
+
+# Say the name of the last detected person
+jv_pg_fr_say_detected_person()
+{
+  say "$(jv_pg_fr_lang detected_person "$jv_pg_fr_detected_person")"
+}
