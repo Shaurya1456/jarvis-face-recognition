@@ -3,6 +3,15 @@
 # Install python face_recognition library on RPi
 # https://gist.github.com/ageitgey/1ac8dbe8572f3f533df6269dab35df65
 
+# Auto enable PiCamera (can also be done with "raspi-config" command)
+grep "start_x=1" /boot/config.txt
+if grep "start_x=1" /boot/config.txt; then
+  echo "PiCamera already enabled, no need to enable it again."
+else
+  sed -i "s/start_x=0/start_x=1/g" /boot/config.txt
+  echo "Reboot will be necessary in order to use the PiCamera."
+fi
+
 # Update and upgrade already installed packages
 sudo apt-get update
 sudo apt-get upgrade
