@@ -3,6 +3,7 @@
 # Install python face_recognition library on RPi
 # https://gist.github.com/ageitgey/1ac8dbe8572f3f533df6269dab35df65
 
+: "
 # Update and upgrade already installed packages
 sudo apt-get update
 sudo apt-get upgrade
@@ -54,3 +55,5 @@ sudo pip3 install face_recognition
 # Revert the swap file size change now that dlib is installed
 sudo sed -i '/CONF_SWAPSIZE=1024/c\CONF_SWAPSIZE=100' /etc/dphys-swapfile
 sudo /etc/init.d/dphys-swapfile restart
+
+"
