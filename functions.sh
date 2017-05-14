@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-# Find someone with the camera (silently)
-#
-jv_pg_fr_find_someone_with_the_camera()
+# Start the face recognition server
+# return (int): 0 if success, 1 if failed
+jv_pg_fr_start()
 {
   # TODO python3 script
 }
