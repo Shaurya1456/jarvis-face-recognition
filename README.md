@@ -1,22 +1,40 @@
-<!---
-IMPORTANT
-=========
-This README.md is displayed in the WebStore as well as within Jarvis app
-Please do not change the structure of this file
-Fill-in Description, Usage & Author sections
-Make sure to rename the [en] folder into the language code your plugin is written in (ex: fr, es, de, it...)
-For multi-language plugin:
-- clone the language directory and translate commands/functions.sh
-- optionally write the Description / Usage sections in several languages
--->
 ## Description
-Description of your Plugin
+Integrate face recognition to <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a> using a PiCamera.
+
+<img src="https://raw.githubusercontent.com/QuentinCG/jarvis-face-recognition/master/presentation.png" width="150">
+
 
 ## Usage
+
+Jarvis will detect people automatically with the PiCamera
 ```
-You: example of how to trigger the command
-Jarvis: output from Jarvis
+Jarvis: J'ai détécté Unknown user
+Jarvis: J'ai détécté Barack Obama
+Jarvis: J'ai détécté Hillary Clinton
+...
 ```
 
+
+## How to install
+
+1) Take a picture of each of the people you want Jarvis to recognise.
+
+2) Add this plugin to your <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a> (<a target="_blank" href="http://domotiquefacile.fr/jarvis/content/plugins">more info here</a>): ```./jarvis.sh -p https://github.com/QuentinCG/jarvis-face-recognition``` (the installation may take up to 5 hours).
+
+3) Configure the <a target="_blank" href="https://github.com/QuentinCG/jarvis-face-recogntion/blob/master/config.sh">configuration file</a> to match your requirements: You have to specify the name and picture of all users.
+
+7) Enjoy
+
+
 ## Author
-[your name](http://your.website)
+[Quentin Comte-Gaz](http://quentin.comte-gaz.com/)
+
+
+## License
+
+This project is under MIT license. This means you can use it as you want (just don't delete the plugin header).
+
+
+## Contribute
+
+If you want to add more examples or improve the plugin, just create a pull request with proper commit message and right wrapping.
