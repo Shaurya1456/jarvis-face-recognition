@@ -4,7 +4,6 @@
 
 # Face recognition configuration
 jv_pg_fr_unknown_person="Unknown user" # Name of people found with camera but not reconized
-jv_pg_fr_default_person="Barack Obama" # Person initialized when launching Jarvis
 
 var_jv_pg_fr_people_to_find='[
     {"name": "Barack Obama", "image": "../examples/barack_obama.jpg"},

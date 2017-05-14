@@ -11,6 +11,7 @@ import picamera # Pi camera (take picture)
 import numpy as np # Type specific definition
 import face_recognition # Face recognition
 import time # Sleep
+from subprocess import call # Send request to Jarvis
 
 if __name__ == "__main__":
   # Define lambda function to convert string to bool
@@ -81,6 +82,9 @@ if __name__ == "__main__":
         number_registered_people = number_registered_people + 1
 
       logging.debug("I see someone named '{}'".format(name))
+
+      # Send information to Jarvis (TODO: IMPROVE BY USING -x option)
+      call([os.path.join(".", "jarvis.sh"), "-s", "J'ai détécté {}".format(name)])
 
     logging.debug("Waiting 2sec")
     time.sleep(2)
