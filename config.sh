@@ -6,6 +6,6 @@
 jv_pg_fr_unknown_person="Unknown user" # Name of people found with camera but not reconized
 
 var_jv_pg_fr_people_to_find='[
-    {"name": "Barack Obama", "image": "../examples/barack_obama.jpg"},
-    {"name": "Hillary Clinton", "image": "../examples/hillary_clinton.jpg"}
+    {"name": "Barack Obama", "image": "plugins_installed/jarvis-face-recognition/examples/barack_obama.jpg"},
+    {"name": "Hillary Clinton", "image": "plugins_installed/jarvis-face-recognition/examples/hillary_clinton.jpg"}
 ]' # List of people to find in pictures
