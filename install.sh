@@ -49,9 +49,9 @@ sudo pip3 install --upgrade picamera[array]
 sudo sed -i '/CONF_SWAPSIZE=100/c\CONF_SWAPSIZE=1024' /etc/dphys-swapfile
 sudo /etc/init.d/dphys-swapfile restart
 
-# Download and install dlib v19.4
+# Download and install dlib v19.7
 mkdir -p dlib
-git clone -b 'v19.4' --single-branch https://github.com/davisking/dlib.git dlib/
+git clone -b 'v19.7' --single-branch https://github.com/davisking/dlib.git dlib/
 cd ./dlib
 sudo python3 setup.py install
 cd ..
